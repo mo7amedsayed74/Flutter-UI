@@ -1,3 +1,4 @@
+import 'package:different_flutter_ui/chat_app/chat_details_screen.dart';
 import 'package:different_flutter_ui/chat_app/chat_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -10,9 +11,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ChatScreen(),
+      home: ChatDetailsScreen(),
     );
   }
 }
